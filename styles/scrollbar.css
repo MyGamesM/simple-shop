@@ -1,0 +1,17 @@
+@import url("./catppuccine.css");
+
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: var(--ctp-mocha-blue)
+}
+
+*::-webkit-scrollbar-thumb {
+	background: var(--ctp-mocha-overlay0)
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

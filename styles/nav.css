@@ -1,0 +1,45 @@
+@import url("./catppuccine.css");
+
+.nav {
+	height: 60px;
+	background-color: var(--ctp-mocha-lavender);
+	display: flex;
+}
+
+.nav-items {
+	margin: 0 auto;
+	height: inherit;
+	display: flex;
+}
+
+.nav-img {
+	width: 100px;
+	margin-right: 32px;
+}
+
+.nav-anchor {
+	display: inline-block;
+	width: 150px;
+	height: inherit;
+	border-left: 2px solid var(--ctp-mocha-overlay0);
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav-anchor > p {
+	color: var(--ctp-mocha-base);
+	margin: 17px;
+}
+
+.last {
+	border-right: 2px solid var(--ctp-mocha-overlay0);
+}
+
+.cart-button {
+	background-color: #00000000;
+	border: none;
+}
+
+.nav-cart {
+	width: 60px;
+}
